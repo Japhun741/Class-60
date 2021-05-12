@@ -1,0 +1,145 @@
+body {
+    padding-top: 800px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+#Welcome {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#0679AB 0%, #FA1616 100%);
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    opacity: 0.83;
+    display: table;
+}
+
+.profile {
+    width: 175px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 300;
+    line-height: 1.2;
+
+}
+
+#name {
+    font-size: 27px;
+    font-family: cursive;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Fugaz One', cursive;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.Bio {
+    padding: 50px;
+    font-size: 40px
+}
+
+.line {
+    background-color: black;
+    height: 6px;
+    width: 76px;
+    margin: 8px auto;
+
+}
+
+p {
+    margin: auto;
+    font-size: 22px;
+    max-width: 500px;
+    line-height: 1.3;
+}
+
+.inner {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: lightgreen;
+}
+
+.links {
+    font-family: cursive;
+    font-size: 20px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 33px;
+    padding-right: 35px;
+    color: lightblue;
+    display: inline;
+}
+
+.links:hover {
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+    text-shadow: 2px 2px gainsboro;
+    z-index: 20%;
+}
+
+#writings a {
+    text-decoration: underline !important;
+    color: blue !important;
+    text-shadow: none !important;
+}
+
+.article:hover {
+    color: green;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contact {
+    background-color: darkred;
+}
+
+.contact_1 a {
+    color: darkorchid !important;
+    text-shadow: none !important;
+
+
+}
+
+.contact_1 h3 {
+    display: inline;
+
+
+}
